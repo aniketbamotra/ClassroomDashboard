@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="/assets/LoopLearningLogo.svg" alt="Logo"></div>
+        <div class="logo-divider"></div>
+        <nav>
+            <ul>
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Performance</li>
+                <li class="nav-item">Resources</li>
+                <li class="nav-item">Calender</li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <img src="/assets/icons/Vector.svg" alt="search icon" class="search">
+            <img src="/assets/icons/Bell with status.svg" alt="bell icon" class="bell-icon">
+            <img src="/assets/avatars/StudentGirl.svg" alt="user avatar" class="user-avatar">
+        </div>
+    </header>
+    <main class="grid-container">
+        <section class="left-sidebar">
+            <div class="content-heading"><span><img src="/assets/icons/feedback.svg" alt="feedback-icon"></span>Channels
+            </div>
+            <div class="-content-accordion">
+                <div class="acc-ele-1">
+                    <button class="accordion-btn">Announcements <img src="/assets/icons/Stroke 165.svg"
+                            alt="down arrow"></button>
+                    <div class="acc-content">
+                        <div class="acc-item">
+                            <img src="/assets/illustrations/Science.svg" alt="illustration">
+                            <div class="acc-body">
+                                <h6 class="acc-item-title">PIS Powai</h6>
+                                <p class="acc-item-sub-text">55 Members</p>
+                            </div>
+                        </div>
+                        <div class="acc-item">
+                            <img src="/assets/illustrations/Reading.svg" alt="illustration">
+                            <div class="acc-body">
+                                <h6 class="acc-item-title">Grade 1</h6>
+                                <p class="acc-item-sub-text">55 Members</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="acc-ele-2">
+                    <button class="accordion-btn">Groups<img src="/assets/icons/Stroke 165.svg"
+                            alt="down arrow"></button>
+                    <div class="acc-content">
+                        <div class="acc-item">
+                            <img src="/assets/illustrations/Class.svg" alt="illustration">
+                            <div class="acc-body">
+                                <h6 class="acc-item-title">Section 1A</h6>
+                                <p class="acc-item-sub-text">35 Members</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="acc-ele-3">
+                    <button class="accordion-btn">Direct Messages<img src="/assets/icons/Stroke 165.svg"
+                            alt="down arrow"></button>
+                    <div class="acc-content">
+                        <div class="acc-item">
+                            <img src="/assets/avatars/TeacherFemale.svg" alt="illustration">
+                            <div class="acc-body">
+                                <h6 class="acc-item-title">Mrs. Vasudha</h6>
+                                <p class="acc-item-sub-text">Class Teacher</p>
+                            </div>
+                        </div>
+                        <div class="acc-item">
+                            <img src="/assets/avatars/StudentGirlBig.svg" alt="illustration">
+                            <div class="acc-body">
+                                <h6 class="acc-item-title">Raj Sir</h6>
+                                <p class="acc-item-sub-text">English</p>
+                            </div>
+                        </div>
+                        <div class="acc-item">
+                            <img src="/assets/avatars/TeacherFemale.svg" alt="illustration">
+                            <div class="acc-body">
+                                <h6 class="acc-item-title">Lavanya Ma'am</h6>
+                                <p class="acc-item-sub-text">Hindi</p>
+                            </div>
+                        </div>
+                        <div class="acc-item">
+                            <img src="/assets/avatars/TeacherMale.svg" alt="illustration">
+                            <div class="acc-body">
+                                <h6 class="acc-item-title">Rhishi Sir</h6>
+                                <p class="acc-item-sub-text">Mathematics</p>
+                            </div>
+                        </div>
+                        <div class="acc-item">
+                            <img src="/assets/avatars/StudentBoy.svg" alt="illustration">
+                            <div class="acc-body">
+                                <h6 class="acc-item-title">Vinod Sir</h6>
+                                <p class="acc-item-sub-text">Science</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main-content">
+            <h4 class="student-name">Hello Shambhavi!</h4>
+            <div class="main-content-sub-text">
+                <div class="status-text"><span><img src="/assets/icons/exclamation-circle.svg" alt=""></span> You have 5
+                    tasks pending. Get, set, go!</div>
+                <div class="filter-container">
+                    <select name="task" id="task">
+                        <option value="All Task">All Task</option>
+                    </select>
+                    <select name="subject" id="subject">
+                        <option value="all">All Subjects</option>
+                        <option value="math">Mathematics</option>
+                        <option value="science">Science</option>
+                        <option value="english">English</option>
+                    </select>
+                </div>
+            </div>
+            <div class="date-slider">
+                <div class="date-ele">
+                    <div class="date-minor">Jan</div>
+                    <div class="date-major">16</div>
+                    <div class="date-minor">Sunday</div>
+                </div>
+                <div class="date-ele">
+                    <div class="date-minor">Jan</div>
+                    <div class="date-major">17</div>
+                    <div class="date-minor">Monday</div>
+                </div>
+                <div class="date-ele">
+                    <div class="date-minor">Jan</div>
+                    <div class="date-major">18</div>
+                    <div class="date-minor">Tuesday</div>
+                </div>
+                <div class="date-ele">
+                    <div class="date-minor">Jan</div>
+                    <div class="date-major">19</div>
+                    <div class="date-minor">Today</div>
+                </div>
+                <div class="date-ele">
+                    <div class="date-minor">Jan</div>
+                    <div class="date-major">20</div>
+                    <div class="date-minor">Thursday</div>
+                </div>
+                <div class="date-ele">
+                    <div class="date-minor">Jan</div>
+                    <div class="date-major">21</div>
+                    <div class="date-minor">Friday</div>
+                </div>
+                <div class="date-ele">
+                    <div class="date-minor">Jan</div>
+                    <div class="date-major">22</div>
+                    <div class="date-minor">Saturday</div>
+                </div>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-section">
+                    <div class="timeline-subtext">
+                        <h6>
+                            Jan, 19 Tuesday
+                        </h6>
+                        <div class="section-timing">
+                            <img src="/assets/icons/exclamation-circle.svg" alt="icon">2 due
+                            <div class="time-divider"></div>
+                            <img src="/assets/icons/exclamation-circle.svg" alt="icon">20min
+                        </div>
+                    </div>
+                    <div class="course-cards">
+                        <div class="course-card">
+                            <img src="/assets/illustrations/ScienceMain.svg" alt="science">
+                            <div class="card-text">
+                                <div class="subject-tag">Science</div>
+                                <div class="card-title">Read 2 pages on Water Polution</div>
+                                <div class="section-timing">
+                                    <img src="/assets/icons/exclamation-circle.svg" alt="icon">5 points
+                                    <div class="time-divider"></div>
+                                    <img src="/assets/icons/exclamation-circle.svg" alt="icon">10 mins
+                                </div>
+                            </div>
+                            <button>Start</button>
+                        </div>
+                        <div class="course-card">
+                            <img src="/assets/illustrations/MathsMain.svg" alt="science">
+                            <div class="card-text">
+                                <div class="subject-tag">Mathematics</div>
+                                <div class="card-title">Solve 15 problems from Exercise 2.1</div>
+                                <div class="section-timing">
+                                    <img src="/assets/icons/exclamation-circle.svg" alt="icon">5 points
+                                    <div class="time-divider"></div>
+                                    <img src="/assets/icons/exclamation-circle.svg" alt="icon">10 mins
+                                </div>
+                            </div>
+                            <button>Resume</button>
+                        </div>
+                        <div class="course-card course-done">
+                            <img src="/assets/illustrations/EnglishMain.svg" alt="science">
+                            <div class="card-text">
+                                <div class="subject-tag">English</div>
+                                <div class="card-title">Write a letter to your friend</div>
+                                <div class="section-timing">
+                                    <img src="/assets/icons/exclamation-circle.svg" alt="icon">5/5 points
+                                </div>
+                            </div>
+                            <button>View Results</button>
+                        </div>
+                        <div class="course-card course-done">
+                            <img src="/assets/illustrations/EVSMain.svg" alt="science">
+                            <div class="card-text">
+                                <div class="subject-tag">EVS</div>
+                                <div class="card-title">Quiz: Soil erosion</div>
+                                <div class="section-timing">
+                                    <img src="/assets/icons/exclamation-circle.svg" alt="icon">5/5 points
+                                </div>
+                            </div>
+                            <button>View Results</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-section course-section-done">
+                    <div class="timeline-subtext">
+                        <h6>
+                            Jan, 19 Tuesday
+                        </h6>
+                        <div class="section-timing">
+                            <img src="/assets/icons/exclamation-circle.svg" alt="icon">All Done
+
+                        </div>
+                    </div>
+                    <div class="course-cards">
+                        <div class="course-card">
+                            <img src="/assets/illustrations/EnglishMain.svg" alt="science">
+                            <div class="card-text">
+                                <div class="subject-tag">Science</div>
+                                <div class="card-title">Read 2 pages on Water Polution</div>
+                                <div class="section-timing">
+                                    <img src="/assets/icons/exclamation-circle.svg" alt="icon">5 points
+                                    <div class="time-divider"></div>
+                                    <img src="/assets/icons/exclamation-circle.svg" alt="icon">10 mins
+                                </div>
+                            </div>
+                            <button>View Results</button>
+                        </div>
+                        <div class="course-card">
+                            <img src="/assets/illustrations/Reading.svg" alt="science">
+                            <div class="card-text">
+                                <div class="subject-tag">Mathematics</div>
+                                <div class="card-title">Solve 15 problems from Exercise 2.1</div>
+                                <div class="section-timing">
+                                    <img src="/assets/icons/exclamation-circle.svg" alt="icon">5 points
+                                    <div class="time-divider"></div>
+                                    <img src="/assets/icons/exclamation-circle.svg" alt="icon">10 mins
+                                </div>
+                            </div>
+                            <button>View Results</button>
+                        </div>
+                        <div class="course-card course-done">
+                            <img src="/assets/illustrations/Science.svg" alt="science">
+                            <div class="card-text">
+                                <div class="subject-tag">English</div>
+                                <div class="card-title">Write a letter to your friend</div>
+                                <div class="section-timing">
+                                    <img src="/assets/icons/exclamation-circle.svg" alt="icon">5/5 points
+                                </div>
+                            </div>
+                            <button>View Results</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="right-sidebar">
+            <div class="right-first">
+                <h4>Congratulations!</h4>
+                <div class="right-subtext">You completed all tasks last week!</div>
+                <button class="right-btn-dark">View Details</button>
+                <img src="/assets/illustrations/Mask Group.svg" alt="">
+            </div>
+            <div class="right-sidebar-card">
+                <div class="right-card-head">
+                    <img src="/assets/icons/certificate.svg" alt="">
+                    <h6>Recent Achievements</h6>
+                </div>
+                <div class="right-card-body">
+                    <img src="/assets/illustrations/Frame.svg" alt="">
+                    <div class="right-card-text">
+                        <h6>Level 10</h6>
+                        <div class="right-subtext">Congratulation! You earned
+                            a new badge.</div>
+                        <div class="progress-bar"></div>
+                        <button class="right-btn">View Performance</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
